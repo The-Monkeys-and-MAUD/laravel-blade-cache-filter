@@ -1,0 +1,26 @@
+{
+    "name": "themonkeys/blade-cache-filter",
+    "description": "A simple caching filter that caches Laravel's Response objects",
+    "homepage": "http://github.com/TheMonkeys/laravel-blade-cache-filter",
+    "keywords": ["cache", "filter", "performance", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "themonkeys",
+            "email": "developers@themonkeys.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Themonkeys\\BladeCacheFilter": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
